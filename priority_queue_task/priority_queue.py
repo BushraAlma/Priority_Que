@@ -25,7 +25,7 @@ class PriorityQueueItem:
         """
         Less than comparison for sorting in the priority queue.
         Items are compared based on priority, and then by count.
-
+        BigO: O(1)
         Complexity:
             Time: O(1)
         """
@@ -43,7 +43,7 @@ class PriorityQueueItem:
 
         Raises:
             ValueError: If the priority is not an integer or not in the range [0, 10].
-
+        BigO: O(1)
         Complexity:
             Time: O(1)
         """
@@ -72,7 +72,7 @@ class PriorityQueue:
 
         Args:
             item (Dict): A dictionary containing 'command' and 'priority'.
-
+        BigO: O(log n)
         Complexity:
             Time: O(log n) due to heap insertion
             Space: O(n) as the heap grows with each item
