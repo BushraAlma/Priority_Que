@@ -17,8 +17,8 @@ Efficient insertion and removal operations
 ## Installation
 Clone the repository to your local machine:
 ```
-git clone https://github.com/your-username/your-repository-name.git
-cd your-repository-name
+git clone https://github.com/BushraAlma/ILM.git
+cd ILM
 ```
 
 ## Usage
