@@ -1,0 +1,41 @@
+1. What are the most important things to look for when reviewing another team member's code?
+
+The following points are what I would normally be looking at when doing code review:
+
+Functionality:
+- Does it work? Ensuring that the code functions as expected is the most fundamental aspect of code review.
+- Has it been tested? Code should be thoroughly tested to catch bugs and ensure reliability.
+- Does it fulfill the intended purpose? The code should meet the requirements and objectives it was designed to address.
+
+Maintainability:
+-Robustness: Code that is easy to break or could introduce future issues should be refined.
+-Scalability and Adaptability: Good code should be scalable and adaptable to future changes or enhancements.
+-Clean and Organized: Well-structured code is easier to maintain and less prone to errors.
+
+Documentation:
+-Clarity: Good documentation explains what the code does, how it does it, and why certain decisions were made.
+-Ease of Understanding: Documentation should make it easy for someone new to the code to understand its main logic and purpose.
+
+Efficiency:
+-Performance: The code should be efficient in terms of resource usage (like memory and processing time).
+performance, especially in large-scale or complex applications.
+
+Dependencies:
+-Necessity of Dependencies: Dependencies on external packages or libraries should be justified. Unnecessary dependencies can complicate the codebase and increase the risk of future compatibility issues.
+-Stability and Support of Dependencies: It's important to rely on well-supported and stable external libraries.
+
+2. Describe a recent interaction with someone who was non-technical. What did you need to communicate and how did you do it
+When we work in our field, it's quite common to collaborate with colleagues who may not have a technical background.
+I really appreciate these interactions because they often bring fresh, insightful ideas that can improve or simplify our tools.
+For instance, not long ago, I worked with a project supervisor who had questions about the color pipeline in our project.
+Since we're all working remotely, I usually prefer to use remote desktop software to connect artist's or supervisor's computer
+along with a Zoom/Hangout call . This way it's easier to just eliminate confusion. 
+I used the OCIO nodes in Nuke to guide him through the color pipeline as a visual aid.
+
+I've found that using visual aids, like flow charts or Nuke, is really effective. They help non-technical team members visualize and understand the workflow much better.
+
+3. Explain Big-O notation in simple terms.
+In very simple terms, Big-O notation is a method used to describe how quickly a computer can solve various problems or tasks.
+These tasks can range from easy ones, like finding an item in a small list, to more complex challenges, such as searching through a huge database.
+In the world of computer science, Big-O notation helps us understand and compare how efficient different algorithms are.
+Specifically, it tells us about an algorithm's performance and how it changes when the amount of data it has to work with increases.
