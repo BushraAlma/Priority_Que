@@ -7,7 +7,7 @@
 ## PriorityQueue Implementation in Python
 
 ## Overview
-This repository contains a simple yet efficient implementation of a priority queue in Python. The priority queue is implemented using a min-heap and can handle elements with a defined priority. It's designed to process elements with a higher priority (lower numerical value) before those with a lower priority.
+This repository contains a simple yet efficient implementation of a priority queue in Python. The priority queue is implemented using a min-heap and can handle elements with a defined priority. It's designed to process elements with a higher priority (lower numerical value) before those with a lower priority (higher numerical values)
 
 ## Features
 Customizable priority for each element
