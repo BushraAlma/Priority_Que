@@ -17,8 +17,8 @@ Efficient insertion and removal operations
 ## Installation
 Clone the repository to your local machine:
 ```
-git clone https://github.com/BushraAlma/ILM.git
-cd ILM
+git clone https://github.com/BushraAlma/Priority_Que.git
+cd Priority_Que
 ```
 
 ## Usage
